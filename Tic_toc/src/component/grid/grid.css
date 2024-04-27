@@ -1,0 +1,31 @@
+.grid{
+    height:500px;
+    width:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-content: space-between; */
+}
+.turnHighlight{
+    color:aquamarine
+}
+.reset{
+    color:blueviolet;
+    box-sizing: border-box;
+    box-shadow: 5cqb;
+    border-color: cornflowerblue;
+}
+.reset:hover{
+    height:5vh;
+    width:10em
+}
+.winer{
+    color: coral;
+    font-size: 5rem
+}
+.Cturn{
+    color: rgb(187, 199, 9);
+    font-size: 5rem
+}
