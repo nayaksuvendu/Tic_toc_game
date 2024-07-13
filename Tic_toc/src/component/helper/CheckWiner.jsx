@@ -17,8 +17,7 @@ function CheckWiner(board,symbol) {
     if(board[0]==board[4] && board[4]==board[8] && board[8]==symbol)
      return symbol
      if(board[6]==board[4] && board[4]==board[2] && board[2]==symbol)
-     return symbol
-    
+     return symbol    
      return ""; // otherwise return empty string
 }
 
