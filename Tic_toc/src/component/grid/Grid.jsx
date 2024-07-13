@@ -18,7 +18,7 @@ export default function Grid({numberOfCard}) {
         if(win){
         setWinner(win); // store the symbol in Winner
         }
-        setBoard([...board]); // unpack all value in the array
+        setBoard(...board); // unpack all value in the array
         setTurn(!turn);
     }
     function reset(){
